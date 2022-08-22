@@ -9,6 +9,15 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
+
+  "lint-staged": {
+    "*. {ts, tsx, js, jsx}": [
+      "yarn lint --fix",
+      "yarn test --findRealatedTests",
+      "git add ."
+    ]
+  },
+
   "dependencies": {
     "react": "18.0.0",
     "react-native": "0.69.4"
