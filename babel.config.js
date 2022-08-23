@@ -9,6 +9,10 @@ module.exports = {
         alias: {
           '@presentational': './src/presentational',
           '@config': './src/config',
+          '@store': './src/store',
+          '@styles': './src/styles',
+          '@hooks': './src/hooks',
+          '@components': './src/components',
         },
       },
     ],

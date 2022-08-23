@@ -1,14 +1,8 @@
-/**
- * @format
- */
-
-import 'react-native';
 import React from 'react';
-import App from '../App';
+import {renderWithThemeProvider} from '@config/functions/Testing';
 
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+import {Login} from '@presentational/LoginScreen/Login';
 
 it('renders correctly', () => {
-  renderer.create(<App />);
+  renderWithThemeProvider(<Login />);
 });
