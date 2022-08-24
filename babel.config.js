@@ -13,8 +13,10 @@ module.exports = {
           '@styles': './src/styles',
           '@hooks': './src/hooks',
           '@components': './src/components',
+          '@assets': './src/assets',
         },
       },
     ],
+    ['module:react-native-dotenv', {moduleName: 'react-native-dotenv'}],
   ],
 };
