@@ -1,3 +1,18 @@
 {
-  "translation": {}
+  "translation": {
+    "label": {
+      "email": "Email",
+      "password": "Senha"
+    },
+
+    "button": {
+      "login": "Entrar"
+    },
+
+    "error": {
+      "login": "Email e/ou senha incorretos.",
+      "required": "Preenchimento obrigatório",
+      "validEmail": "Insira um email válido"
+    }
+  }
 }
