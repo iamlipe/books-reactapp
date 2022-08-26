@@ -11,9 +11,9 @@ import {useTranslation} from 'react-i18next';
 import {useReduxDispatch} from '@hooks/useReduxDispatch';
 import {useReduxSelector} from '@hooks/useReduxSelector';
 
-import Logo from '@assets/svgs/logo.svg';
+import Logo from '@assets/svgs/ligth_logo.svg';
 
-import backgroud from '@assets/images/backgroud_login.png';
+import background from '@assets/images/background_login.png';
 
 import InputText from './InputText';
 import Button from './Button';
@@ -60,7 +60,7 @@ export const Login = () => {
   }, [error]);
 
   return (
-    <StyledBackground source={backgroud}>
+    <StyledBackground source={background}>
       <StyledContainer>
         <StyledLogo />
         <InputText
