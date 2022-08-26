@@ -13,7 +13,11 @@ const Button = ({title, loading = false, onPress}: Props) => {
   return (
     <StyledContainer onPress={onPress}>
       {loading ? (
-        <StyledLoading size="small" color={theme.colors.PRIMARY_500} />
+        <StyledLoading
+          testID="loading-button"
+          size="small"
+          color={theme.colors.PRIMARY_500}
+        />
       ) : (
         <StyledText>{title}</StyledText>
       )}
