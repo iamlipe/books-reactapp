@@ -13,7 +13,7 @@ const Button = ({title, loading = false, onPress}: Props) => {
   return (
     <StyledContainer onPress={onPress}>
       {loading ? (
-        <StyledLoading size="small" color={theme.colors.PRIMARY} />
+        <StyledLoading size="small" color={theme.colors.PRIMARY_500} />
       ) : (
         <StyledText>{title}</StyledText>
       )}
@@ -34,7 +34,7 @@ const StyledContainer = styled.TouchableOpacity`
 `;
 
 const StyledText = styled.Text`
-  color: ${({theme}) => theme.colors.PRIMARY};
+  color: ${({theme}) => theme.colors.PRIMARY_500};
 `;
 
 const StyledLoading = styled.ActivityIndicator``;
