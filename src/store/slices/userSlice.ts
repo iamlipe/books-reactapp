@@ -11,11 +11,15 @@ export interface LoginResponse {
   name: string;
   birthdate: string;
   gender: string;
+  email: string;
 }
 
 export interface User {
   id: string;
   name: string;
+  email: string;
+  authorization: string;
+  refreshToken: string;
 }
 
 interface UserState {
@@ -56,6 +60,20 @@ const userSlice = createSlice({
       isLoading: false,
       error,
     }),
+
+    LOGOUT: (state, _: PayloadAction) => ({
+      ...state,
+      isLoading: true,
+      error: null,
+    }),
+    LOGOUT_SUCCESS: () => ({
+      ...initialState,
+    }),
+    LOGOUT_FAILURE: (state, {payload: {error}}) => ({
+      ...state,
+      isLoading: false,
+      error,
+    }),
   },
 });
 
@@ -63,5 +81,12 @@ const {actions, reducer} = userSlice;
 
 export const userState = initialState;
 
-export const {LOGIN, LOGIN_FAILURE, LOGIN_SUCCESS} = actions;
+export const {
+  LOGIN,
+  LOGIN_FAILURE,
+  LOGIN_SUCCESS,
+  LOGOUT,
+  LOGOUT_SUCCESS,
+  LOGOUT_FAILURE,
+} = actions;
 export default reducer;
