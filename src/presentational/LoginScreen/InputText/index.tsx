@@ -100,7 +100,7 @@ const StyledInput = styled.TextInput`
 `;
 
 const StyledLabel = styled.Text`
-  color: ${({theme}) => theme.colors.TEXT_DARK_TRANSPARENT};
+  color: ${({theme}) => theme.colors.TEXT_LIGHT_TRANSPARENT};
 
   line-height: 16px;
 `;
