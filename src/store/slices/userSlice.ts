@@ -18,8 +18,8 @@ export interface User {
   id: string;
   name: string;
   email: string;
-  authorization: string;
-  refreshToken: string;
+  authorization: string | undefined;
+  refreshToken: string | undefined;
 }
 
 interface UserState {

@@ -82,6 +82,7 @@ export const Login = () => {
           secureTextEntry
           submitButton={() => (
             <Button
+              testID="submit-button"
               title={t('button.login')}
               onPress={handleSubmit(onSubmit)}
               loading={isLoading}

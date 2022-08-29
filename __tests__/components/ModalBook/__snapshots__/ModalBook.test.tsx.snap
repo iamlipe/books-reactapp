@@ -1,0 +1,649 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalBook should match snapshot 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#333333",
+          "height": 1334,
+          "left": -20,
+          "opacity": 0.4,
+          "position": "absolute",
+          "width": 750,
+          "zIndex": 1,
+        },
+      ]
+    }
+  />,
+  <Modal
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    style={
+      Array [
+        Object {},
+      ]
+    }
+    theme={
+      Object {
+        "colors": Object {
+          "black": "#242424",
+          "disabled": "hsl(208, 8%, 90%)",
+          "divider": "#bcbbc1",
+          "error": "#ff190c",
+          "grey0": "#393e42",
+          "grey1": "#43484d",
+          "grey2": "#5e6977",
+          "grey3": "#86939e",
+          "grey4": "#bdc6cf",
+          "grey5": "#e1e8ee",
+          "greyOutline": "#bbb",
+          "platform": Object {
+            "android": Object {
+              "error": "#f44336",
+              "grey": "rgba(0, 0, 0, 0.54)",
+              "primary": "#2196f3",
+              "searchBg": "#dcdce1",
+              "secondary": "#9C27B0",
+              "success": "#4caf50",
+              "warning": "#ffeb3b",
+            },
+            "default": Object {
+              "error": "#ff3b30",
+              "grey": "#7d7d7d",
+              "primary": "#007aff",
+              "searchBg": "#dcdce1",
+              "secondary": "#5856d6",
+              "success": "#4cd964",
+              "warning": "#ffcc00",
+            },
+            "ios": Object {
+              "error": "#ff3b30",
+              "grey": "#7d7d7d",
+              "primary": "#007aff",
+              "searchBg": "#dcdce1",
+              "secondary": "#5856d6",
+              "success": "#4cd964",
+              "warning": "#ffcc00",
+            },
+            "web": Object {
+              "error": "#ff190c",
+              "grey": "#393e42",
+              "primary": "#2089dc",
+              "searchBg": "#303337",
+              "secondary": "#ca71eb",
+              "success": "#52c41a",
+              "warning": "#faad14",
+            },
+          },
+          "primary": "#2089dc",
+          "searchBg": "#303337",
+          "secondary": "#ca71eb",
+          "success": "#52c41a",
+          "warning": "#faad14",
+          "white": "#ffffff",
+        },
+      }
+    }
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        }
+      }
+      testID="RNE__Overlay__backdrop"
+    />
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderRadius": 3,
+            "height": 1133.8999999999999,
+            "marginTop": 66.7,
+            "padding": 10,
+            "shadowColor": "rgba(0, 0, 0, .3)",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowRadius": 4,
+            "width": 675,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#FFFFFF",
+              "borderColor": "#33333333",
+              "borderRadius": 16,
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "height": 32,
+              "justifyContent": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": -80.03999999999999,
+              "width": 32,
+            }
+          }
+        >
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              Array [
+                Object {
+                  "color": "#333",
+                  "fontSize": 16,
+                },
+                undefined,
+                Object {
+                  "fontFamily": "Material Icons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+        </View>
+        <RCTScrollView
+          showsVerticalScrollIndicator={false}
+          style={
+            Array [
+              Object {
+                "height": 200,
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View>
+            <Image
+              source={
+                Object {
+                  "uri": "https://images-na.ssl-images-amazon.com/images/I/41ZS6DFo+vL._SX328_BO1,204,203,200_.jpg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "center",
+                    "height": 412,
+                    "marginBottom": 24,
+                    "width": "100%",
+                  },
+                ]
+              }
+              testID="image-book-modal"
+            />
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "Heebo-Medium",
+                    "fontSize": 55,
+                  },
+                ]
+              }
+            >
+              Memórias Póstumas de Brás Cubas
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Machado de Assis
+              </Text>
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "Heebo-Medium",
+                    "fontSize": 24,
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 32,
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+            >
+              Informações
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 24,
+                      "lineHeight": 20,
+                      "marginBottom": 0,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": 0,
+                      "textTransform": "none",
+                    },
+                  ]
+                }
+              >
+                Páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                159
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 24,
+                      "lineHeight": 20,
+                      "marginBottom": 0,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": 0,
+                      "textTransform": "none",
+                    },
+                  ]
+                }
+              >
+                Editora
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Saraiva
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 24,
+                      "lineHeight": 20,
+                      "marginBottom": 0,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": 0,
+                      "textTransform": "none",
+                    },
+                  ]
+                }
+              >
+                Publicação
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                2019
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 24,
+                      "lineHeight": 20,
+                      "marginBottom": 0,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": 0,
+                      "textTransform": "none",
+                    },
+                  ]
+                }
+              >
+                Idioma
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                português
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 24,
+                      "lineHeight": 20,
+                      "marginBottom": 0,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": 0,
+                      "textTransform": "none",
+                    },
+                  ]
+                }
+              >
+                Título Original
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Memórias Póstumas de Brás Cubas
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 24,
+                      "lineHeight": 20,
+                      "marginBottom": 0,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": 0,
+                      "textTransform": "none",
+                    },
+                  ]
+                }
+              >
+                ISBN-10
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                8502082191
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "space-between",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 24,
+                      "lineHeight": 20,
+                      "marginBottom": 0,
+                      "marginLeft": 0,
+                      "marginRight": 0,
+                      "marginTop": 0,
+                      "textTransform": "none",
+                    },
+                  ]
+                }
+              >
+                ISBN-13
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                978-8502082199
+              </Text>
+            </View>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "Heebo-Medium",
+                    "fontSize": 24,
+                    "marginBottom": 12,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "marginTop": 32,
+                    "textTransform": "uppercase",
+                  },
+                ]
+              }
+            >
+              Resenha da editora
+            </Text>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "flex-start",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                <SvgMock
+                  style={
+                    Array [
+                      Object {},
+                    ]
+                  }
+                />
+                 
+                  A publicação desta obra não só inaugura o Realismo no Brasil, como inicia a etapa mais complexa da obra de Machado de Assis. Com ela, aprofunda-se a sua análise da realidade e refina-se a sua linguagem, sendo considerada a obra que prenuncia algumas técnicas da literatura moderna.
+              </Text>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </Modal>,
+]
+`;

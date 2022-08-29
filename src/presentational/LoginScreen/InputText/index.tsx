@@ -42,6 +42,7 @@ const InputText = forwardRef(
             <StyledColumn>
               <StyledLabel>{label}</StyledLabel>
               <StyledInput
+                testID={`input-text-${name}`}
                 ref={ref}
                 placeholder={placeholder}
                 placeholderTextColor={theme.colors.TEXT_LIGHT_TRANSPARENT}

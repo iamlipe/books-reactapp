@@ -40,7 +40,10 @@ const ModalBook = () => {
         </StyledBaseButton>
 
         <StyledContainerScroll showsVerticalScrollIndicator={false}>
-          <StyledImage source={{uri: detailsBook?.imageUrl}} />
+          <StyledImage
+            testID="image-book-modal"
+            source={{uri: detailsBook?.imageUrl}}
+          />
 
           <StyledTextTitle>
             {detailsBook && detailsBook.title.length > 35
