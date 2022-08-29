@@ -11,6 +11,14 @@ const buttonSubmit = () => {
   return <Button testID="button-submit" title="buttonSubmit" />;
 };
 
+jest.mock('react-hook-form', () => ({
+  useController: () => ({
+    field: {
+      onChange: jest.fn(),
+    },
+  }),
+}));
+
 describe('InputText', () => {
   const control = jest.fn();
   const name = 'inputName';

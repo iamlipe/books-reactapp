@@ -1,0 +1,1883 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home should match snapshot 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "minHeight": "100%",
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/background_home.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "marginTop": "px",
+          "paddingBottom": 16,
+          "paddingTop": 36,
+          "width": "90%",
+        },
+      ]
+    }
+  >
+    <Modal
+      hardwareAccelerated={false}
+      onRequestClose={[Function]}
+      style={
+        Array [
+          Object {},
+        ]
+      }
+      theme={
+        Object {
+          "colors": Object {
+            "black": "#242424",
+            "disabled": "hsl(208, 8%, 90%)",
+            "divider": "#bcbbc1",
+            "error": "#ff190c",
+            "grey0": "#393e42",
+            "grey1": "#43484d",
+            "grey2": "#5e6977",
+            "grey3": "#86939e",
+            "grey4": "#bdc6cf",
+            "grey5": "#e1e8ee",
+            "greyOutline": "#bbb",
+            "platform": Object {
+              "android": Object {
+                "error": "#f44336",
+                "grey": "rgba(0, 0, 0, 0.54)",
+                "primary": "#2196f3",
+                "searchBg": "#dcdce1",
+                "secondary": "#9C27B0",
+                "success": "#4caf50",
+                "warning": "#ffeb3b",
+              },
+              "default": Object {
+                "error": "#ff3b30",
+                "grey": "#7d7d7d",
+                "primary": "#007aff",
+                "searchBg": "#dcdce1",
+                "secondary": "#5856d6",
+                "success": "#4cd964",
+                "warning": "#ffcc00",
+              },
+              "ios": Object {
+                "error": "#ff3b30",
+                "grey": "#7d7d7d",
+                "primary": "#007aff",
+                "searchBg": "#dcdce1",
+                "secondary": "#5856d6",
+                "success": "#4cd964",
+                "warning": "#ffcc00",
+              },
+              "web": Object {
+                "error": "#ff190c",
+                "grey": "#393e42",
+                "primary": "#2089dc",
+                "searchBg": "#303337",
+                "secondary": "#ca71eb",
+                "success": "#52c41a",
+                "warning": "#faad14",
+              },
+            },
+            "primary": "#2089dc",
+            "searchBg": "#303337",
+            "secondary": "#ca71eb",
+            "success": "#52c41a",
+            "warning": "#faad14",
+            "white": "#ffffff",
+          },
+        }
+      }
+      transparent={true}
+      visible={false}
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          },
+        ]
+      }
+    >
+      <SvgMock
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      />
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#33333333",
+            "borderRadius": 16,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "height": 32,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 32,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#333",
+                "fontSize": 16,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <RCTScrollView
+      showsVerticalScrollIndicator={false}
+      style={
+        Array [
+          Object {
+            "height": "px",
+            "marginTop": 16,
+          },
+        ]
+      }
+    >
+      <View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-7.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                A veniam sint
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Gúbio Moreira,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Júlio César Macedo
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                1538 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Nogueira - Barros
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2010
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-6.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Ab assumenda dolor
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Sara Carvalho,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Meire Xavier
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                1743 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Batista, Silva and Batista
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2020
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-3.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Accusantium nobis
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Sra. Ígor Oliveira,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Marcelo Martins
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                298 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Santos, Carvalho and Franco
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2013
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-3.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Accusantium quisquam
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Gustavo Carvalho
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                831 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Franco e Associados
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2020
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-1.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Accusantium sequi ad
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Lucas Saraiva,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Margarida Costa Filho
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                484 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Reis e Associados
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2021
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-5.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Ad et
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Felícia Melo
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                2053 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Albuquerque - Albuquerque
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2021
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-7.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Ad molestiae
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Alexandre Barros Neto
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                907 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Costa, Batista and Reis
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2015
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-3.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Adipisci
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Lucas Saraiva,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Srta. Lorraine Barros
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                140 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Silva, Franco and Moreira
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2010
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-9.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Alias
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Ofélia Moraes,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Dr. Ígor Souza,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Fabrício Melo
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                1073 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Xavier LTDA
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2017
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "height": 160,
+              "marginBottom": 16,
+              "opacity": 1,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "width": "100%",
+            }
+          }
+          testID="card-book"
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://d2drtqy2ezsot0.cloudfront.net/Book-5.jpg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "width": 189.00000000000003,
+                },
+              ]
+            }
+            testID="image-book-card"
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "justifyContent": "space-between",
+                  "paddingBottom": 0,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 0,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#333333",
+                      "fontFamily": "Heebo-Medium",
+                      "fontSize": 27,
+                    },
+                  ]
+                }
+              >
+                Alias consequatur
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Pablo Barros,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Roberta Carvalho,
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#AB2680",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Deneval Carvalho
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {},
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                1403 páginas
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Editora Xavier - Carvalho
+              </Text>
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#999999",
+                      "fontFamily": "Heebo-Regular",
+                      "fontSize": 24,
+                    },
+                  ]
+                }
+              >
+                Publicado em 2019
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "flexDirection": "row",
+            "height": "10%",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityState={
+          Object {
+            "disabled": true,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#33333333",
+            "borderRadius": 16,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "height": 32,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 32,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#333",
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "marginRight": -5,
+                },
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "marginBottom": 0,
+              "marginLeft": 10,
+              "marginRight": 10,
+              "marginTop": 0,
+            },
+          ]
+        }
+      >
+        Página
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "Heebo-Medium",
+                "marginBottom": 0,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 0,
+              },
+            ]
+          }
+          testID="current-page"
+        >
+           1 
+        </Text>
+        de
+        <Text
+          style={
+            Array [
+              Object {
+                "fontFamily": "Heebo-Medium",
+                "marginBottom": 0,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "marginTop": 0,
+              },
+            ]
+          }
+          testID="total-pages"
+        >
+           50
+        </Text>
+      </Text>
+      <View
+        accessibilityState={
+          Object {
+            "disabled": false,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderColor": "#33333333",
+            "borderRadius": 16,
+            "borderStyle": "solid",
+            "borderWidth": 1,
+            "height": 32,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 32,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#333",
+                "fontSize": 16,
+              },
+              Array [
+                Object {
+                  "marginLeft": 2,
+                },
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;

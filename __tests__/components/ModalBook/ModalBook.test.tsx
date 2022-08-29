@@ -3,28 +3,11 @@ import {
   renderWithThemeProvider,
   matchSnapshotWithProvider,
 } from '@config/functions/Testing';
-import {BookDetailsResponse} from '@store/slices/bookSlice';
+import {detailsBook} from '@__mocks__/mockBooks';
 
 import ModalBook from '@presentational/HomeScreen/ModalBook';
 
 describe('ModalBook', () => {
-  const detailsBook: BookDetailsResponse = {
-    id: '1',
-    title: 'Memórias Póstumas de Brás Cubas',
-    authors: ['Machado de Assis'],
-    imageUrl:
-      'https://images-na.ssl-images-amazon.com/images/I/41ZS6DFo+vL._SX328_BO1,204,203,200_.jpg',
-    pageCount: 159,
-    publisher: 'Saraiva',
-    published: 2019,
-    category: 'romance',
-    description:
-      'A publicação desta obra não só inaugura o Realismo no Brasil, como inicia a etapa mais complexa da obra de Machado de Assis. Com ela, aprofunda-se a sua análise da realidade e refina-se a sua linguagem, sendo considerada a obra que prenuncia algumas técnicas da literatura moderna.',
-    language: 'português',
-    isbn10: '8502082191',
-    isbn13: '978-8502082199',
-  };
-
   test('should render correctly', () => {
     renderWithThemeProvider(<ModalBook />, {
       book: {detailsBook},
