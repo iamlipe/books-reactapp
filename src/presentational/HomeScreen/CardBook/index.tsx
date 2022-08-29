@@ -20,7 +20,9 @@ const CardBook = ({item}: Props) => {
   }
 
   return (
-    <StyledContainer onPress={() => handleGetDetailsBook({id: item.id})}>
+    <StyledContainer
+      testID="card-book"
+      onPress={() => handleGetDetailsBook({id: item.id})}>
       <StyledImage testID="image-book-card" source={{uri: item.imageUrl}} />
       <StyledRow>
         <StyledColumn>

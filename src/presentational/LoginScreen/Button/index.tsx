@@ -2,16 +2,17 @@ import React, {memo} from 'react';
 import styled, {useTheme} from 'styled-components/native';
 
 interface Props {
+  testID: string;
   title: string;
   loading?: boolean;
   onPress: () => void;
 }
 
-const Button = ({title, loading = false, onPress}: Props) => {
+const Button = ({testID, title, loading = false, onPress}: Props) => {
   const theme = useTheme();
 
   return (
-    <StyledContainer onPress={onPress}>
+    <StyledContainer testID={testID} onPress={onPress}>
       {loading ? (
         <StyledLoading
           testID="loading-button"

@@ -73,9 +73,9 @@ export const Home = () => {
           </StyledBaseButton>
           <StyledTextPagination>
             Página
-            <StyledTextPaginationStrong>{` ${allBooks?.page} `}</StyledTextPaginationStrong>
+            <StyledTextPaginationStrong testID="current-page">{` ${allBooks?.page} `}</StyledTextPaginationStrong>
             de
-            <StyledTextPaginationStrong>{` ${allBooks?.totalPages}`}</StyledTextPaginationStrong>
+            <StyledTextPaginationStrong testID="total-pages">{` ${allBooks?.totalPages}`}</StyledTextPaginationStrong>
           </StyledTextPagination>
           <StyledBaseButton
             disabled={
