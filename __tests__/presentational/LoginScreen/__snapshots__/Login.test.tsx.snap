@@ -1,0 +1,300 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should match snapshot 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "minHeight": "100%",
+      },
+    ]
+  }
+>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/background_login.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": undefined,
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <RCTSafeAreaView
+    emulateUnlessSupported={true}
+    style={
+      Array [
+        Object {
+          "marginTop": "px",
+          "width": "90%",
+        },
+      ]
+    }
+  >
+    <SvgMock
+      style={
+        Array [
+          Object {
+            "marginBottom": 16,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "height": 60,
+            "marginBottom": 16,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#333333",
+              "borderRadius": 4,
+              "height": "100%",
+              "left": 0,
+              "opacity": 0.32,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "height": "100%",
+              "paddingBottom": 6,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 6,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": "100%",
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "minWidth": "60%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF52",
+                    "lineHeight": 16,
+                  },
+                ]
+              }
+            >
+              Email
+            </Text>
+            <TextInput
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="books@ioasys.com.br"
+              placeholderTextColor="#FFFFFF52"
+              secureTextEntry={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "height": 24,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0,
+                  },
+                ]
+              }
+              testID="input-text-email"
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "height": 60,
+            "marginBottom": 16,
+            "width": "100%",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#333333",
+              "borderRadius": 4,
+              "height": "100%",
+              "left": 0,
+              "opacity": 0.32,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "height": "100%",
+              "paddingBottom": 6,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 6,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "height": "100%",
+                "justifyContent": "space-between",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "minWidth": "60%",
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF52",
+                    "lineHeight": 16,
+                  },
+                ]
+              }
+            >
+              Senha
+            </Text>
+            <TextInput
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="********"
+              placeholderTextColor="#FFFFFF52"
+              returnKeyType="send"
+              secureTextEntry={true}
+              style={
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                    "flexBasis": 0,
+                    "flexGrow": 1,
+                    "flexShrink": 1,
+                    "height": 24,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "paddingTop": 0,
+                  },
+                ]
+              }
+              testID="input-text-password"
+            />
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#FFFFFF",
+                "borderRadius": 44,
+                "height": 35,
+                "justifyContent": "center",
+                "opacity": 1,
+                "width": 85,
+              }
+            }
+            testID="submit-button"
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#B22E6F",
+                  },
+                ]
+              }
+            >
+              Entrar
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTSafeAreaView>
+</View>
+`;
