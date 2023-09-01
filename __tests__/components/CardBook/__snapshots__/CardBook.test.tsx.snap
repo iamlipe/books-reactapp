@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardBook should match snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 4,
+      "flexDirection": "row",
+      "height": 160,
+      "marginBottom": 16,
+      "opacity": 1,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 16,
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://images-na.ssl-images-amazon.com/images/I/41ZS6DFo+vL._SX328_BO1,204,203,200_.jpg",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "width": 189.00000000000003,
+        },
+      ]
+    }
+    testID="image-book-card"
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "justifyContent": "space-between",
+          "paddingBottom": 0,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#333333",
+              "fontFamily": "Heebo-Medium",
+              "fontSize": 27,
+            },
+          ]
+        }
+      >
+        Memórias Póstumas de Brás Cuba...
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#AB2680",
+              "fontFamily": "Heebo-Regular",
+              "fontSize": 24,
+            },
+          ]
+        }
+      >
+        Machado de Assis
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#999999",
+              "fontFamily": "Heebo-Regular",
+              "fontSize": 24,
+            },
+          ]
+        }
+      >
+        159 páginas
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#999999",
+              "fontFamily": "Heebo-Regular",
+              "fontSize": 24,
+            },
+          ]
+        }
+      >
+        Editora Saraiva
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#999999",
+              "fontFamily": "Heebo-Regular",
+              "fontSize": 24,
+            },
+          ]
+        }
+      >
+        Publicado em 2019
+      </Text>
+    </View>
+  </View>
+</View>
+`;

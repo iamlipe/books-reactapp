@@ -1,0 +1,18 @@
+{
+  "translation": {
+    "label": {
+      "email": "Correo electrónico",
+      "password": "Clave"
+    },
+
+    "button": {
+      "login": "Acceso"
+    },
+
+    "error": {
+      "login": "Correo electrónico y/o contraseñas incorrectas.",
+      "required": "Campo requerido",
+      "validEmail": "Introduzca un correo electrónico válido"
+    }
+  }
+}

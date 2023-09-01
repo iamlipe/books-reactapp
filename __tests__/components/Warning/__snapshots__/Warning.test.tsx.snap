@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Warning should match snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "height": 48,
+        "justifyContent": "center",
+        "maxWidth": 239,
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 12,
+        "width": "70%",
+      },
+    ]
+  }
+>
+  <SvgMock
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+  >
+    something went wrong
+  </Text>
+</View>
+`;
